@@ -68,7 +68,7 @@ export default Card;
 const WholeContain = styled.div`
 width:100%;
 height: 1000px;
-// background-color: #AEADA3;
+background-color: #AEADA3;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -76,7 +76,7 @@ border: 3px #ccc solid;
 `
 
 const MainContain = styled.div`
-width: 100%;
+width: 70%;
 // height: 50%;
  background-color: #FFFDE4;
 display:flex;
@@ -89,7 +89,7 @@ border: 3px #ccc solid;
 `
 
 const HeaderContain = styled.div`
-width: 100%;
+width: 50%;
 // background-color: red;
 text-align: center;
 align-items: center;
@@ -97,12 +97,16 @@ align-items: center;
 `
 
 const Header1 = styled.h2`
+font-weight: lighter;
+padding-top: 25px;
+margin: 0;
 
 
 `
 
 const Header2 = styled.h2`
-
+padding: 0;
+margin: 0;
 `
 
 const HeaderPara = styled.p`
@@ -111,7 +115,7 @@ const HeaderPara = styled.p`
 
 const CardDisplayHolder = styled.div`
 
-width: 85%;
+width: 90%;
 display: flex;
 justify-content: space-around;
 align-items: center;
